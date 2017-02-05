@@ -6,17 +6,6 @@ background: linear-gradient(to bottom, #ff9932 0%,#ff898b 72%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9932', endColorstr='#ff898b',GradientType=0 );
 }
 
-#title{
-  margin-top: -40px;
-  margin-left: -8px;
-  margin-right: -8px;
-  margin-bottom: -40px;
-  color: white;
-  font-family: 'Overpass', sans-serif;
-  font-size: 30px;
-  text-align: center;
-    background-color: black;
-}
 
 .nav{
   font-family: 'Overpass', sans-serif;
@@ -29,6 +18,135 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9932', end
   color: white;
 
 }
+
+.marquee{
+  font-family: 'Overpass', sans-serif;
+  position:relative;
+  left:5px;
+  top: 10px;
+  color: red;
+  float: left;
+  font-size: 100px;
+  color: white;
+  margin-right: -1300px;
+
+}
+.marquee2{
+  font-family: 'Overpass', sans-serif;
+  position:relative;
+  left:5px;
+  top: 300px;
+  color: red;
+  float: left;
+  font-size: 100px;
+  color: white;
+  margin-right: -1300px;
+
+}
+
+.marquee3{
+  font-family: 'Overpass', sans-serif;
+  position:relative;
+  left:5px;
+  top: 600px;
+  color: red;
+  float: left;
+  font-size: 100px;
+  color: white;
+  margin-right: -1300px;
+
+}
+
+.marquee4{
+  font-family: 'Overpass', sans-serif;
+  position:relative;
+  left:5px;
+  top: 900px;
+  color: red;
+  float: left;
+  font-size: 100px;
+  color: white;
+  margin-right: -1300px;
+}
+.marquee5{
+  font-family: 'Overpass', sans-serif;
+  position:relative;
+  left:5px;
+  top: 1200px;
+  color: red;
+  float: left;
+  font-size: 100px;
+  color: white;
+  margin-right: -1300px;
+}
+.marquee6{
+  font-family: 'Overpass', sans-serif;
+  position:relative;
+  left:5px;
+  top: 1500px;
+  color: red;
+  float: left;
+  font-size: 100px;
+  color: white;
+  margin-right: -1300px;
+}
+.marquee7{
+  font-family: 'Overpass', sans-serif;
+  position:relative;
+  left:5px;
+  top: 1800px;
+  color: red;
+  float: left;
+  font-size: 100px;
+  color: white;
+  margin-right: -1300px;
+}
+.marquee8{
+  font-family: 'Overpass', sans-serif;
+  position:relative;
+  left:5px;
+  top: 2100px;
+  color: red;
+  float: left;
+  font-size: 100px;
+  color: white;
+  margin-right: -1300px;
+}
+.marquee9{
+  font-family: 'Overpass', sans-serif;
+  position:relative;
+  left:5px;
+  top: 2400px;
+  color: red;
+  float: left;
+  font-size: 100px;
+  color: white;
+  margin-right: -1300px;
+}
+.marquee10{
+  font-family: 'Overpass', sans-serif;
+  position:relative;
+  left:5px;
+  top: 2700px;
+  color: red;
+  float: left;
+  font-size: 100px;
+  color: white;
+  margin-right: -1300px;
+}
+
+.marquee11{
+  font-family: 'Overpass', sans-serif;
+  position:relative;
+  left:5px;
+  top: 3000px;
+  color: red;
+  float: left;
+  font-size: 100px;
+  color: white;
+  margin-right: -1300px;
+}
+
 
 ul{
    list-style: none;
@@ -44,40 +162,36 @@ img {
 }
 
 #mosaic{
-  margin-top: -22px;
+  margin-top: 14px;
+  padding-top: 20px;
   margin-left: 5px;
-  margin-right: 5px;
+  margin-right: 7px;
   background-color: #FDDDA0;
-
-
 }
+
+
 #netscape{
   background-color: #A0DBE8;
   margin-top: -5px;
   margin-left: 5px;
-  margin-right: 5px;
+  margin-right: 7px;
 }
 
 #xerox{
   background-color: #F58045;
   margin-left: 5px;
-  margin-right: 5px;
+  margin-right: 7px;
 
 }
 #circle4{
   background-color: #FCB433;
   margin-left: 5px;
-  margin-right: 5px;
+  margin-right: 7px;
 }
 
-#circle5{
-    background-color: #23346B;
-    margin-left: 5px;
-    margin-right: 5px;
-}
 
 #crown6{
-  background-color: #E5C29F;
+  background-color: #23346B;
   margin-left: 5px;
   margin-right: 5px;
 
@@ -89,29 +203,51 @@ img {
 }
 
 #gift8{
-  background-color: white;
+  background-color: #8FCEDB;
   margin-left: 5px;
   margin-right: 5px;
 }
 
 #heart9{
-  background-color: white;
+  background-color:#C1B6A8;
   margin-left: 5px;
   margin-right: 5px;
 }
 
 #loading10{
-  background-color: white;
+  background-color:#537EA2;
   margin-left: 5px;
   margin-right: 5px;
 }
 
 #loading11{
-  background-color: white;
+  background-color: #D74022;
   margin-left: 5px;
   margin-right: 5px;
 }
 
 #mac12{
-  
+  background-color: #F79868;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+#windows13{
+  background-color: #0BA8E1;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+#windows14{
+  background-color: #FCB433;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+#modern15{
+  background-color: #76C7EB;
+  margin-left: 5px;
+  margin-right: 5px;
+
 }
