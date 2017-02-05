@@ -1,3 +1,113 @@
+body{
+  background: #ff9932;
+background: -moz-linear-gradient(top, #ff9932 0%, #ff898b 72%);
+background: -webkit-linear-gradient(top, #ff9932 0%,#ff898b 72%);
+background: linear-gradient(to bottom, #ff9932 0%,#ff898b 72%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9932', endColorstr='#ff898b',GradientType=0 );
+}
+
 #title{
+  margin-top: -40px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -40px;
+  color: white;
+  font-family: 'Overpass', sans-serif;
+  font-size: 30px;
+  text-align: center;
+    background-color: black;
+}
+
+.nav{
+  font-family: 'Overpass', sans-serif;
+  position:fixed;
+  left:30px;
+  top: 10px;
   color: red;
+  float: left;
+  font-size: 10px;
+  color: white;
+
+}
+
+ul{
+   list-style: none;
+   padding: 0;
+}
+
+
+img {
+  display: block;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mosaic{
+  margin-top: -22px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #FDDDA0;
+
+
+}
+#netscape{
+  background-color: #A0DBE8;
+  margin-top: -5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#xerox{
+  background-color: #F58045;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+#circle4{
+  background-color: #FCB433;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#circle5{
+    background-color: #23346B;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#crown6{
+  background-color: #E5C29F;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+#expanding7{
+  background-color: #F4CBE0;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#gift8{
+  background-color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#heart9{
+  background-color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#loading10{
+  background-color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#loading11{
+  background-color: white;
+  margin-left: 5px;
+  margin-right: 5px;
 }

@@ -1,9 +1,28 @@
 body{
-  color: white;
-  background: #FCB433;
+  background-color: #F6D7E7;
 }
-h1 {
-    ;font-family: Garamond;
-    font-size: 72px;
-    color: white;
+
+h1{
+  color: white;
+  font-family: 'Overpass', sans-serif;
+  font-size: 43px;
+}
+h3{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+#exercises{
+  padding-bottom: 20px;
+}
+.main{
+  font-family: 'Overpass', sans-serif;
+  color: white;
+}
+ul{
+   list-style: none;
+   text-align: center;
+   margin: auto;
+   padding: 0;
 }
