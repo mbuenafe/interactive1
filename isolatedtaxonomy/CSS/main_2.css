@@ -8,7 +8,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9932', end
 
 
 .nav{
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Rubik', sans-serif;
   position:fixed;
   left:30px;
   top: 10px;
@@ -20,7 +20,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9932', end
 }
 
 .marquee{
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Rubik', sans-serif;
   position:relative;
   left:5px;
   top: 10px;
@@ -32,7 +32,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9932', end
 
 }
 .marquee2{
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Rubik', sans-serif;
   position:relative;
   left:5px;
   top: 300px;
@@ -45,7 +45,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9932', end
 }
 
 .marquee3{
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Rubik', sans-serif;
   position:relative;
   left:5px;
   top: 600px;
@@ -58,7 +58,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9932', end
 }
 
 .marquee4{
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Rubik', sans-serif;
   position:relative;
   left:5px;
   top: 900px;
@@ -69,7 +69,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9932', end
   margin-right: -1300px;
 }
 .marquee5{
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Rubik', sans-serif;
   position:relative;
   left:5px;
   top: 1200px;
@@ -80,7 +80,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9932', end
   margin-right: -1300px;
 }
 .marquee6{
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Rubik', sans-serif;
   position:relative;
   left:5px;
   top: 1500px;
@@ -91,7 +91,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9932', end
   margin-right: -1300px;
 }
 .marquee7{
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Rubik', sans-serif;
   position:relative;
   left:5px;
   top: 1800px;
@@ -102,7 +102,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9932', end
   margin-right: -1300px;
 }
 .marquee8{
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Rubik', sans-serif;
   position:relative;
   left:5px;
   top: 2100px;
@@ -113,7 +113,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9932', end
   margin-right: -1300px;
 }
 .marquee9{
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Rubik', sans-serif;
   position:relative;
   left:5px;
   top: 2400px;
@@ -124,7 +124,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9932', end
   margin-right: -1300px;
 }
 .marquee10{
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Rubik', sans-serif;
   position:relative;
   left:5px;
   top: 2700px;
@@ -136,7 +136,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9932', end
 }
 
 .marquee11{
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Rubik', sans-serif;;
   position:relative;
   left:5px;
   top: 3000px;
@@ -148,7 +148,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9932', end
 }
 
 .marquee12{
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Rubik', sans-serif;
   position:relative;
   left:5px;
   top: 3300px;
@@ -160,10 +160,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9932', end
 }
 
 
-ul{
-   list-style: none;
-   padding: 0;
-}
 
 
 img {
