@@ -147,6 +147,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9932', end
   margin-right: -1300px;
 }
 
+.marquee12{
+  font-family: 'Overpass', sans-serif;
+  position:relative;
+  left:5px;
+  top: 3300px;
+  color: red;
+  float: left;
+  font-size: 100px;
+  color: white;
+  margin-right: -1300px;
+}
+
 
 ul{
    list-style: none;
@@ -247,6 +259,24 @@ img {
 
 #modern15{
   background-color: #76C7EB;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+#modern16{
+  background-color: #B5D334;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+#modern17{
+  background-color: #C1B6A8;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+#modern23{
+  background-color: #FDDDA0;
   margin-left: 5px;
   margin-right: 5px;
 
