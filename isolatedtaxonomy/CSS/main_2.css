@@ -1,17 +1,11 @@
-body{
-  background: #ff9932;
-background: -moz-linear-gradient(top, #ff9932 0%, #ff898b 72%);
-background: -webkit-linear-gradient(top, #ff9932 0%,#ff898b 72%);
-background: linear-gradient(to bottom, #ff9932 0%,#ff898b 72%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9932', endColorstr='#ff898b',GradientType=0 );
-}
+
 
 
 .nav{
   font-family: 'Rubik', sans-serif;
-  position:fixed;
+  position:absolute;
   left:30px;
-  top: 10px;
+  top: 30px;
   color: red;
   float: left;
   font-size: 10px;
@@ -170,31 +164,22 @@ img {
 }
 
 #mosaic{
-  margin-top: 14px;
-  padding-top: 20px;
-  margin-left: 5px;
-  margin-right: 7px;
   background-color: #FDDDA0;
 }
 
 
 #netscape{
   background-color: #A0DBE8;
-  margin-top: -5px;
-  margin-left: 5px;
-  margin-right: 7px;
 }
 
 #xerox{
   background-color: #F58045;
-  margin-left: 5px;
-  margin-right: 7px;
+
 
 }
 #circle4{
   background-color: #FCB433;
-  margin-left: 5px;
-  margin-right: 7px;
+
 }
 
 
