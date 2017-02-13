@@ -1,0 +1,22 @@
+.nav{
+  font-family: 'Rubik', sans-serif;
+  position:absolute;
+  left:30px;
+  top: 30px;
+  color: red;
+  float: left;
+  font-size: 10px;
+  color: white;
+
+}
+
+#m3{
+  float: left;;
+}
+
+
+
+
+div {
+    cursor:wait;
+}
