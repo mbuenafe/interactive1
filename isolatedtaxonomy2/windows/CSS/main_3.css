@@ -14,17 +14,13 @@
   float: left;;
 }
 
-table:hover{
-  background:url('../img/modern19reloaded.gif')
 
-}
 
 div {
     cursor:wait;
 }
-#mac{
 
-}
+
 
 p{
   font-family:'Rubik', sans-serif;
@@ -35,18 +31,16 @@ p{
 }
 
 .marquee {
-    position: fixed;
+    position: absolute;
     font-weight: bold;
     color: black;
     text-transform: uppercase;
     letter-spacing: 0.12em;
-    overflow: hidden;
-    white-space: nowrap;
     line-height: 1em;
     font-size: 16px;
     margin-left: 0;
     bottom: 0;
-    right: -900px;
+    right: -720px;
     width: 100vh;
     transform-origin: 10px;
     transform: rotate(-90deg);
