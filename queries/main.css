@@ -1,0 +1,91 @@
+* { margin: 0px; padding: 0px; }
+
+body {
+	background: #ff9999;
+	font-family: 'Lora', serif;
+}
+
+@media (min-width: 890px) and (max-width: 1440px) {
+#desktop{
+		opacity: 1;
+    color: white;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 50px;
+		text-align: center;
+		letter-spacing: 5px;
+
+}
+
+#tablet, #mobile, #ipod {
+	opacity: 0;
+}
+}
+
+/* iPad */
+@media (min-width: 500px) and (max-width: 889px) {
+	body {
+		background:#b3ed16;
+	}
+
+	#tablet{
+		opacity: 1;
+		text-align: center;
+		color:white;
+		margin-left: 50px;
+    margin-top: 100px;
+		font-size: 50px;
+		letter-spacing: 5px;
+
+	}
+	#desktop, #mobile, #ipod {
+		opacity: 0;
+	}
+
+}
+
+/* iPhone 6*/
+@media (min-width: 668px) and (max-width: 800px) {
+
+	body {
+		background: #ff8141;
+	}
+
+	#mobile{
+		opacity: 1;
+		text-align: center;
+		color:white;
+		margin-left: 50px;
+    margin-top: 100px;
+		font-size: 50px;
+		letter-spacing: 5px;
+
+	}
+
+	#desktop, #tablet, #ipod {
+		opacity: 0;
+	}
+}
+
+/* iPhone 3*/
+@media (min-width: 375px) and (max-width: 667px) {
+
+	body {
+		background: #0573ef;
+	}
+
+	#ipod{
+		opacity: 1;
+		text-align: center;
+		color:white;
+		margin-left: 50px;
+    margin-top: 100px;
+		font-size: 50px;
+		letter-spacing: 5px;
+
+	}
+
+	#desktop, #tablet, #mobile {
+		opacity: 0;
+	}
+}
