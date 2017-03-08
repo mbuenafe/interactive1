@@ -1,0 +1,269 @@
+* { margin: 0px; padding: 0px; }
+
+/*redditgold*/
+img
+{
+ top: auto;
+ left: auto;
+ text-align: center;
+ transition: all 500ms ease;
+ position: relative;;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.gold{
+	animation-name: slideUp;
+	-webkit-animation-name: slideUp;
+
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease;
+	-webkit-animation-timing-function: ease;
+
+	visibility: visible !important;
+}
+
+@keyframes slideUp {
+	0% {
+		transform: translateY(100%);
+	}
+	50%{
+		transform: translateY(-8%);
+	}
+	65%{
+		transform: translateY(4%);
+	}
+	80%{
+		transform: translateY(-4%);
+	}
+	95%{
+		transform: translateY(2%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@-webkit-keyframes slideUp {
+	0% {
+		-webkit-transform: translateY(100%);
+	}
+	50%{
+		-webkit-transform: translateY(-8%);
+	}
+	65%{
+		-webkit-transform: translateY(4%);
+	}
+	80%{
+		-webkit-transform: translateY(-4%);
+	}
+	95%{
+		-webkit-transform: translateY(2%);
+	}
+	100% {
+		-webkit-transform: translateY(0%);
+	}
+}
+
+
+
+.reveal-text,
+.reveal-text:after {
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-duration: 800ms;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.reveal-text {
+  position: relative;
+  font-size: 72px;
+  color: white;
+  font-family: verdana;
+  font-weight: bold;
+  display: block;
+  user-select: none;
+  animation-name: reveal-text;
+  white-space: nowrap;
+  cursor: default;
+}
+.reveal-text:after {
+  content: "";
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f46e29;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  pointer-events: none;
+  animation-name: revealer-text;
+}
+
+@-webkit-keyframes reveal-text {
+  from {
+            clip-path: inset(0 100% 0 0);
+  }
+  to {
+            clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes reveal-text {
+  from {
+            clip-path: inset(0 100% 0 0);
+  }
+  to {
+            clip-path: inset(0 0 0 0);
+  }
+}
+@-webkit-keyframes revealer-text {
+  0%, 50% {
+            transform-origin: 0 50%;
+  }
+  60%, 100% {
+            transform-origin: 100% 50%;
+  }
+  50% {
+            transform: scaleX(1);
+  }
+  60% {
+            transform: scaleX(1);
+  }
+  100% {
+            transform: scaleX(0);
+  }
+}
+@keyframes revealer-text {
+  0%, 50% {
+            transform-origin: 0 50%;
+  }
+  60%, 100% {
+            transform-origin: 100% 50%;
+  }
+  50% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  60% {
+            transform: scaleX(1);
+  }
+  100% {
+            transform: scaleX(0);
+  }
+}
+.note {
+  position: fixed;
+  bottom: 16px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.note pre {
+  display: inline-block;
+}
+
+
+.main{
+  font-family:verdana;
+  font-size: 15px;
+  top: calc(50vh - -200px);
+  left: calc(50vw - 60px);
+  position: absolute;
+  transition: all 500ms ease;
+}
+
+.main{
+	animation-name: stretchRight;
+	-webkit-animation-name: stretchRight;
+
+	animation-duration: 1.5s;
+	-webkit-animation-duration: 1.5s;
+
+	animation-timing-function: ease-out;
+	-webkit-animation-timing-function: ease-out;
+
+	transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+	-webkit-transform-origin: 0% 0%;
+}
+
+@keyframes stretchRight {
+	0% {
+		transform: scaleX(0.3);
+	}
+	40% {
+		transform: scaleX(1.02);
+	}
+	60% {
+		transform: scaleX(0.98);
+	}
+	80% {
+		transform: scaleX(1.01);
+	}
+	100% {
+		transform: scaleX(0.98);
+	}
+	80% {
+		transform: scaleX(1.01);
+	}
+	100% {
+		transform: scaleX(1);
+	}
+}
+
+@-webkit-keyframes stretchRight {
+	0% {
+		-webkit-transform: scaleX(0.3);
+	}
+	40% {
+		-webkit-transform: scaleX(1.02);
+	}
+	60% {
+		-webkit-transform: scaleX(0.98);
+	}
+	80% {
+		-webkit-transform: scaleX(1.01);
+	}
+	100% {
+		-webkit-transform: scaleX(0.98);
+	}
+	80% {
+		-webkit-transform: scaleX(1.01);
+	}
+	100% {
+		-webkit-transform: scaleX(1);
+	}
+}
+
+.video{
+  position: fixed;
+    top: 0%;
+    left: 0%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+iframe{
+border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    height: 100%;
+    width: 100%;
+    border-style: inset;
+    border-color: inherit;
+    align-items: center;
+  }

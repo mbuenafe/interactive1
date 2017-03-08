@@ -18,6 +18,7 @@ transition: all 1s ease;
 	animation-duration: 6s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  font-weight: bold;
 
 
 }
