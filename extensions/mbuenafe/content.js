@@ -4,7 +4,7 @@ $('img').attr('src', 'http://i.dailymail.co.uk/i/pix/2015/09/15/13/2C554FAA00000
 // replace text in the page when it loads
 $('body').children().each(function () {
 	// replace the '@' sign with a '$' sign
-	$(this).html( $(this).html().replace(/$/g,'ajhsbkas') );
+	$(this).html( $(this).html().replace(/Josef Albers/g,'ajhsbkas') );
 });
 
 // when you click on an image hide it using CSS
