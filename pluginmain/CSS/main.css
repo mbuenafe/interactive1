@@ -155,7 +155,7 @@ img
 #example
 {
  top: calc(50vh - -730px);
- left: calc(50vw - 1080px);
+ left: calc(50vw - 1030px);
  text-align: center;
  transition: all 500ms ease;
  position: relative;
