@@ -1,9 +1,13 @@
-* { margin: 0px; padding: 0px; }
+** { margin: 0px; padding: 0px; }
 /*snoo*/
+
+body{
+  background-color:
+}
 img
 {
- top: calc(50vh - 200px);
- left: calc(50vw - 150px);
+ top: calc(50vh - 400px);
+ left: calc(50vw - 200px);
  text-align: center;
  transition: all 500ms ease;
  position: relative;
@@ -25,21 +29,21 @@ img
 
 .main{
   position: absolute;
-  top: calc(50vh - -100px);
-  left: calc(50vw - 25px);
+  top: calc(50vh - -50px);
+  left: calc(50vw - -140px);
   margin-left: -500px;
   text-align: left;
   color: blue;
   font-family:verdana;
-  font-size: 25px;
-  line-height: 45px;
+  font-size: 18px;
+  line-height: 37px;
 }
 
 .rate{
   position: absolute;
-  top: calc(50vh - -400px);
+  top: calc(50vh - -450px);
   left: calc(50vw - 25px);
-  margin-left: -200px;
+  margin-left: -160px;
   text-align: center;
   color: blue;
   font-family:verdana;
@@ -48,22 +52,125 @@ img
 }
 
 
-#sample{
-  position: relative;
-  padding-top: 750px;
-  margin-left: -280px;
-  padding-bottom: 200px;
-
-}
-
 .mains{
   position: absolute;
-  /*top: calc(50vh - -400px);*/
+  top: calc(50vh - -650px);
   left: calc(50vw - 25px);
-  margin-left: -30px;
+  margin-left: -10px;
   text-align: center;
   color: blue;
   font-family:verdana;
   font-size: 20px;
   line-height: 45px;
+}
+
+.gold,img:hover{
+	animation-name: floating;
+	-webkit-animation-name: floating;
+
+	animation-duration: 1.5s;
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+	0% {
+		transform: translateY(0%);
+	}
+	50% {
+		transform: translateY(8%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translateY(0%);
+	}
+	50% {
+		-webkit-transform: translateY(8%);
+	}
+	100% {
+		-webkit-transform: translateY(0%);
+	}
+}
+
+
+.gold{
+  position: absolute;
+  margin-top: 645px;
+  margin-left: 100px;
+  animation-name:rotateIn ;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+}
+@-webkit-keyframes rotateIn {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin:right;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes rotateIn {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.rotateIn {
+  -webkit-animation-name: rotateIn;
+  animation-name: rotateIn;
+}
+
+
+#example
+{
+ top: calc(50vh - -730px);
+ left: calc(50vw - 1080px);
+ text-align: center;
+ transition: all 500ms ease;
+ position: relative;
+}
+
+#example {
+  position:relative;
+}
+
+#example img {
+  position:absolute;
+  transition: opacity;
+}
+
+#example img.top:hover {
+  transition: 0.5s;
+  opacity:0;
 }
