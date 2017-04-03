@@ -1,0 +1,83 @@
+
+$('body').children().each(function () {
+	$(this).html( $(this).html().replace(/\$20\.45/g,'₹₲5') );
+	$(this).html( $(this).html().replace(/\$21\.87/g,'₹₲5') );
+	$(this).html( $(this).html().replace(/\$18\.99/g,'₹₲5') );
+	$(this).html( $(this).html().replace(/\$23\.56/g,'₹₲6') );
+	$(this).html( $(this).html().replace(/\$14\.55/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$35\.00/g,'₹₲9') );
+	$(this).html( $(this).html().replace(/\$14\.20/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$16\.32/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$43\.95/g,'₹₲11') );
+	$(this).html( $(this).html().replace(/\$19\.03/g,'₹₲7') );
+	$(this).html( $(this).html().replace(/\$18\.24/g,'₹₲5') );
+	$(this).html( $(this).html().replace(/\$37\.21/g,'₹₲9') );
+	$(this).html( $(this).html().replace(/\$9\.99/g,'₹₲3') );
+	$(this).html( $(this).html().replace(/\$6\.77/g,'₹₲2') );
+	$(this).html( $(this).html().replace(/\$15\.31/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$9\.10/g,'₹₲3') );
+	$(this).html( $(this).html().replace(/\$15\.33/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$15\.15/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$20\.00/g,'₹₲5') );
+	$(this).html( $(this).html().replace(/\$17\.04/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$50\.00/g,'₹₲13') );
+	$(this).html( $(this).html().replace(/\$16\.99/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$3\.99/g,'₹₲1') );
+	$(this).html( $(this).html().replace(/\$21\.46/g,'₹₲5') );
+	$(this).html( $(this).html().replace(/\$133\.45/g,'₹₲33') );
+	$(this).html( $(this).html().replace(/\$30\.26/g,'₹₲8') );
+	$(this).html( $(this).html().replace(/\$9\.95/g,'₹₲2') );
+	$(this).html( $(this).html().replace(/\$26\.12/g,'₹₲7') );
+	$(this).html( $(this).html().replace(/\$12\.49/g,'₹₲3') );
+	$(this).html( $(this).html().replace(/\$17\.98/g,'₹₲5') );
+	$(this).html( $(this).html().replace(/\$16\.69/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$21\.66/g,'₹₲5') );
+	$(this).html( $(this).html().replace(/\$17\.05/g,'₹₲5') );
+	$(this).html( $(this).html().replace(/\$17\.02/g,'₹₲5') );
+	$(this).html( $(this).html().replace(/\$13\.34/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$18\.04/g,'₹₲5') );
+	$(this).html( $(this).html().replace(/\$42\.00/g,'₹₲11') );
+	$(this).html( $(this).html().replace(/\$21\.66/g,'₹₲5') );
+	$(this).html( $(this).html().replace(/\$10\.35/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$6\.49/g,'₹₲2') );
+	$(this).html( $(this).html().replace(/\$15\.88/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$2\.99/g,'₹₲0.5') );
+	$(this).html( $(this).html().replace(/\$25/g,'₹₲6') );
+	$(this).html( $(this).html().replace(/\$15\.47/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$17\.19/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$27\.30/g,'₹₲9') );
+	$(this).html( $(this).html().replace(/\$30\.81/g,'₹₲8') );
+	$(this).html( $(this).html().replace(/\$15\.47/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$17\.19/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$13\.60/g,'₹₲3') );
+	$(this).html( $(this).html().replace(/\$12\.42/g,'₹₲3') );
+	$(this).html( $(this).html().replace(/\$13\.60/g,'₹₲3') );
+	$(this).html( $(this).html().replace(/\$80\.56/g,'₹₲20') );
+	$(this).html( $(this).html().replace(/\$17\.19/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$27\.51/g,'₹₲7') );
+	$(this).html( $(this).html().replace(/\$35\.86/g,'₹₲9') );
+	$(this).html( $(this).html().replace(/\$27\.51/g,'₹₲9') );
+	$(this).html( $(this).html().replace(/\$32\.23/g,'₹₲17') );
+	$(this).html( $(this).html().replace(/\$28\.77/g,'₹₲7') );
+	$(this).html( $(this).html().replace(/\$19\.95/g,'₹₲5') );
+	$(this).html( $(this).html().replace(/\$37\.00/g,'₹₲9') );
+	$(this).html( $(this).html().replace(/\$17\.01/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$12\.80/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$1\.31/g,'₹₲0.5') );
+	$(this).html( $(this).html().replace(/\$22\.62/g,'₹₲6') );
+		});
+
+// var text = $(this).text();
+// 		var num = text.substr(text.indexOf("$") + 1);
+// 		var convertednum = num / 3.99;
+// 			alert(convertednum);
+//
+//
+// 			$('body').children().each(function () {
+// 			$(this).html( $(this).html().replace(/[0-9]+/g,'₹₲') );
+// 					});
+//
+// 		var text = $(this).text();
+// 			var num = text.substr(text.indexOf("$") + 1);
+// 			var convertednum = num / 3.99;
+// 				alert(convertednum);

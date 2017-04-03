@@ -1,0 +1,23 @@
+.hide {
+  opacity: 0;
+}
+
+.gradient {
+  background: linear-gradient(135deg, #ff0000 1%,#fff200 20%,#00ffdd 40%,#090df9 60%,#ff0af6 80%,#ff0004 100%);
+  color: white;
+}
+
+/*#hplogo{
+  transform: rotate(90deg);
+  transform: scale(4);
+}*/
+
+.rotate{
+  transform: rotate(180deg) scale(4);
+}
+
+.match-section {
+  background: #cee3f8;
+  border-radius: 3px;
+  padding: 2px;
+}
