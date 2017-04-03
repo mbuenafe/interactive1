@@ -1,0 +1,335 @@
+h1{
+  font-family: verdana;
+  font-size: 20px;
+}
+
+a:link, a:visited {
+    color: blue;
+  }
+
+#parent{
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 30px;
+  width: 280px;
+
+}
+
+#hover-content {
+    display:none;
+    font-family: verdana;
+    transition: fadeIn;
+    font-weight: normal;
+    text-align: left;
+    width: 280px;
+    color: blue;
+
+}
+#parent:hover #hover-content {
+    display:block;
+    font-family: verdana;
+    animation-name: slideDown;
+  	-webkit-animation-name: slideDown;
+
+  	animation-duration: 1s;
+  	-webkit-animation-duration: 1s;
+
+  	animation-timing-function: ease;
+  	-webkit-animation-timing-function: ease;
+
+  	visibility: visible !important;
+  }
+
+  @keyframes slideDown {
+  	0% {
+  		transform: translateY(-100%);
+  	}
+  	50%{
+  		transform: translateY(10  %);
+  	}
+  	65%{
+  		transform: translateY(0%);
+  	}
+  	80%{
+  		transform: translateY(0%);
+  	}
+  	95%{
+  		transform: translateY(0%);
+  	}
+  	100% {
+  		transform: translateY(0%);
+  	}
+  }
+
+  @-webkit-keyframes slideDown {
+  	0% {
+  		-webkit-transform: translateY(-100%);
+  	}
+  	50%{
+  		-webkit-transform: translateY(8%);
+  	}
+  	65%{
+  		-webkit-transform: translateY(4%);
+  	}
+  	80%{
+  		-webkit-transform: translateY(4%);
+  	}
+  	95%{
+  		-webkit-transform: translateY(0%);
+  	}
+  	100% {
+  		-webkit-transform: translateY(0%);
+  	}
+  }
+
+
+  #parent2{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    text-align: right;
+    width: 280px;
+    top: calc(50vh - -60px);
+    right: calc(50vw - 670px);
+
+  }
+  #hover-content2 {
+        display:none;
+        font-family: verdana;
+        font-weight: normal;
+        text-align:right;
+        width: 280px;
+        color: blue;
+
+    }
+    #parent2:hover #hover-content2 {
+        display:block;
+        font-family: verdana;
+        animation-name: slideDown;
+      	-webkit-animation-name: slideDown;
+
+      	animation-duration: 1s;
+      	-webkit-animation-duration: 1s;
+
+      	animation-timing-function: ease;
+      	-webkit-animation-timing-function: ease;
+
+      	visibility: visible !important;
+      }
+
+      @keyframes slideDown {
+      	0% {
+      		transform: translateY(-100%);
+      	}
+      	50%{
+      		transform: translateY(10  %);
+      	}
+      	65%{
+      		transform: translateY(0%);
+      	}
+      	80%{
+      		transform: translateY(0%);
+      	}
+      	95%{
+      		transform: translateY(0%);
+      	}
+      	100% {
+      		transform: translateY(0%);
+      	}
+      }
+
+      @-webkit-keyframes slideDown {
+      	0% {
+      		-webkit-transform: translateY(-100%);
+      	}
+      	50%{
+      		-webkit-transform: translateY(8%);
+      	}
+      	65%{
+      		-webkit-transform: translateY(4%);
+      	}
+      	80%{
+      		-webkit-transform: translateY(4%);
+      	}
+      	95%{
+      		-webkit-transform: translateY(0%);
+      	}
+      	100% {
+      		-webkit-transform: translateY(0%);
+      	}
+      }
+
+
+.greddit{
+  position: fixed;
+  padding-left: 20px;
+}
+
+.download{
+  position: fixed;
+  padding-left: 20px;
+  width: auto;
+  right: calc(50vw - 670px);
+  color: black;
+
+}
+
+img
+{
+ top: calc(50vh - 200px);
+ left: calc(50vw - 250px);
+ text-align: center;
+ transition: all 500ms ease;
+ position: relative;
+}
+
+#snoo {
+  position:relative;
+}
+
+#snoo img {
+  position:absolute;
+  transition: opacity;
+}
+
+#snoo img.top:hover {
+  opacity:0;
+}
+
+.price{
+  font-family: verdana;
+  font-weight:bold;
+  font-size: 100px;
+  position: absolute;
+  text-align: center;
+  top: calc(50vh - -110px);
+  left: calc(50vw - 340px);
+
+}
+
+.theodometer{
+  padding-top: 300px
+
+}
+
+.odometer{
+  font-family: verdana;
+  font-size: 100px;
+  position: relative;
+  top: calc(50vh - 100px);
+  left: calc(50vw - -110px);
+  text-align: center;
+  font-weight:bold;
+    color: blue;
+
+}
+
+.odometer.odometer-auto-theme, .odometer.odometer-theme-minimal {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  position: relative;
+}
+.odometer.odometer-auto-theme .odometer-digit, .odometer.odometer-theme-minimal .odometer-digit {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  position: relative;
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer, .odometer.odometer-theme-minimal .odometer-digit .odometer-digit-spacer {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  visibility: hidden;
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner, .odometer.odometer-theme-minimal .odometer-digit .odometer-digit-inner {
+  text-align: left;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-ribbon, .odometer.odometer-theme-minimal .odometer-digit .odometer-ribbon {
+  display: block;
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner, .odometer.odometer-theme-minimal .odometer-digit .odometer-ribbon-inner {
+  display: block;
+  -webkit-backface-visibility: hidden;
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-value, .odometer.odometer-theme-minimal .odometer-digit .odometer-value {
+  display: block;
+  -webkit-transform: translateZ(0);
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value, .odometer.odometer-theme-minimal .odometer-digit .odometer-value.odometer-last-value {
+  position: absolute;
+}
+.odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner, .odometer.odometer-theme-minimal.odometer-animating-up .odometer-ribbon-inner {
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+}
+.odometer.odometer-auto-theme.odometer-animating-up.odometer-animating .odometer-ribbon-inner, .odometer.odometer-theme-minimal.odometer-animating-up.odometer-animating .odometer-ribbon-inner {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner, .odometer.odometer-theme-minimal.odometer-animating-down .odometer-ribbon-inner {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner, .odometer.odometer-theme-minimal.odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+
+#example
+{
+ top: calc(50vh - 200px);
+ left: calc(50vw - 950px);
+ text-align: center;
+ transition: all 500ms ease;
+ position: relative;
+ margin-bottom: 300px;
+ height: 300px;
+ border: 3;
+}
+
+#example {
+  position:relative;
+}
+
+#example img {
+  position:absolute;
+  transition: opacity;
+}
+
+#example img.top:hover {
+  transition: 0.5s;
+  opacity:0;
+}
