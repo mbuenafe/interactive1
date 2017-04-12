@@ -65,6 +65,9 @@ $('body').children().each(function () {
 	$(this).html( $(this).html().replace(/\$12\.80/g,'₹₲4') );
 	$(this).html( $(this).html().replace(/\$1\.31/g,'₹₲0.5') );
 	$(this).html( $(this).html().replace(/\$22\.62/g,'₹₲6') );
+	$(this).html( $(this).html().replace(/\$15\.07/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$16\.60/g,'₹₲4') );
+	$(this).html( $(this).html().replace(/\$29\.99/g,'₹₲9') );
 		});
 
 // var text = $(this).text();
