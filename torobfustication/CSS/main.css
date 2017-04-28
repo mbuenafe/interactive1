@@ -1,0 +1,390 @@
+body{
+  background-color: #EDBF2E;
+}
+
+img{
+  z-index: 0;
+}
+
+p, .paragraph{
+  margin: 100px;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-size: 40px;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 53px;
+  color: white;
+  /*position: absolute;*/
+}
+
+
+p {
+  position: absolute;
+}
+
+span{
+  margin: 100px;
+}
+/*
+.paragraph {
+  background-color: white;
+  margin: 100px;
+}*/
+
+#circle {
+  position: fixed;
+  border: 3px white solid;
+  background-color: white;
+  width: 15px;
+  height:15px;
+  border-radius: 15px;
+  margin-left: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  animation: pulse 2s infinite;
+}
+
+
+#bar {
+    height: 39px;
+    width: 0px;
+    left: 100px;
+    background-color: #000000;
+    position: absolute;
+    margin-top: 110px;
+    cursor: pointer;
+    transition: width 1s;
+  }
+
+  #bar.clicked {
+      width: 1230px;
+    }
+
+#bar2 {
+      height: 39px;
+      width: 0px;
+      left: 100px;
+      background-color: #000000;
+      position: absolute;
+      margin-top: 163px;
+      transition: width 1s;
+    }
+
+#bar2.clicked {
+        width: 1240px;
+      }
+
+
+#bar3 {
+        height: 39px;
+        width: 0px;
+        left: 100px;
+        background-color: #000000;
+        position: absolute;
+        margin-top: 216px;
+        transition: width 1s;
+      }
+  #bar3.clicked {
+        width: 1235px;
+            }
+
+#bar4 {
+  height: 39px;
+  width: 0px;
+  left: 100px;
+  background-color: #000000;
+  position: absolute;
+  margin-top: 269px;
+  transition: width 1s;
+    }
+#bar4.clicked {
+              width: 1230px;
+              }
+
+#bar5 {
+        height: 39px;
+        width: 0px;
+        left: 100px;
+        background-color: #000000;
+        position: absolute;
+        margin-top: 322px;
+        transition: width 1s;
+      }
+      #bar5.clicked {
+            width: 1260px;
+                    }
+
+
+#bar6 {
+          height: 39px;
+          width: 0px;
+          left: 100px;
+          background-color: #000000;
+          position: absolute;
+          margin-top: 375px;
+          transition: width 1s;
+        }
+    #bar6.clicked {
+                      width: 1210px;
+                      }
+
+
+    #bar7 {
+            height: 39px;
+            width: 0px;
+            left: 100px;
+            background-color: #000000;
+            position: absolute;
+            margin-top: 428px;
+            transition: width 1s;
+          }
+          #bar7.clicked {
+                        width: 1210px;
+                        }
+
+    #bar8 {
+      height: 39px;
+      width: 0px;
+      left: 100px;
+      background-color: #000000;
+      position: absolute;
+      margin-top: 481px;
+      transition: width 1s;
+        }
+  #bar8.clicked {
+    width: 1150px;
+                      }
+
+.bg-1{
+  background-color: #EE243A;
+  transition: all ease 500ms;
+}
+.bg-2{
+  background-color: #F69799;
+  transition: all ease 500ms;
+}
+.bg-3{
+  background-color: #85CA9A;
+  transition: all ease 500ms;
+}
+.bg-4{
+  background-color: #343089;
+  transition: all ease 500ms;
+}
+.bg-5{
+  background-color: #F69799;
+  transition: all ease 500ms;
+}
+
+.bg-6{
+  background-color: #DC553C;
+  transition: all ease 500ms;
+}
+
+.bg-7{
+  background-color: #9eb841;
+  transition: all ease 500ms;
+}
+
+.bg-8{
+  background-color: #8fcedb;
+  transition: all ease 500ms;
+}
+
+.bg-9{
+  background-color: #ff9966;
+  transition: all ease 500ms;
+}
+
+
+.cbutton--effect-boris::after {
+	background: rgba(111,148,182,0.1);
+}
+
+.cbutton--effect-boris.cbutton--click::after {
+	animation: anim-effect-boris 0.3s forwards;
+}
+
+@keyframes anim-effect-boris {
+	0% {
+		transform: scale3d(0.3, 0.3, 1);
+	}
+	25%, 50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: scale3d(1.2, 1.2, 1);
+	}
+}
+
+.cbutton {
+	position: relative;
+	display: inline-block;
+	margin: 1em;
+	padding: 0;
+	border: none;
+	background: none;
+	color: #286aab;
+	font-size: 1.4em;
+	transition: color 0.7s;
+}
+
+.cbutton.cbutton--click,
+.cbutton:focus {
+	outline: none;
+	color: #3c8ddc;
+}
+
+.cbutton__icon {
+	display: block;
+}
+
+.cbutton__text {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.cbutton::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -35px 0 0 -35px;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+.screen-1{
+  position: absolute;
+  opacity:0;
+  margin-left: 700px;
+  margin-top: 358px;
+  /*width: 200px;
+  height: 154px;*/
+  transition: all ease 1s;
+  z-index: -999999;
+
+}
+
+.screen-1.show{
+  opacity:1;
+}
+
+.screen-2{
+  position: absolute;
+  opacity:0;
+  margin-left: 30px;
+  margin-top: 220px;
+  /*width: 200px;
+  height: 154px;*/
+  transition: all ease 1s;
+  z-index: -999999;
+
+}
+
+.screen-2.show{
+  opacity:1;
+}
+
+.screen-3{
+  position: absolute;
+  opacity:0;
+  margin-left: 1120px;
+  margin-top: 30px;
+  /*width: 200px;
+  height: 154px;*/
+  transition: all ease 1s;
+  z-index: -999999;
+
+}
+
+.screen-3.show{
+  opacity:1;
+}
+
+.screen-4{
+  position: absolute;
+  opacity:0;
+  margin-left: 650px;
+  margin-top: 100px;
+  width: 400px;
+  height: 269px;
+  transition: all ease 1s;
+  z-index: -999999;
+
+}
+
+.screen-4.show{
+  opacity:1;
+}
+
+.screen-5{
+  position: absolute;
+  opacity:0;
+  margin-left: 300px;
+  margin-top: 50px;
+  width: 443px;
+  height: 200px;
+  transition: all ease 1s;
+  z-index: -999999;
+
+}
+
+.screen-5.show{
+  opacity:1;
+}
+
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(255,255,255, 0.6);
+    box-shadow: 0 0 0 0 rgba(255,255,255, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(255,255,255, 0);
+      box-shadow: 0 0 0 10px rgba(255,255,255, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+      box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+  }
+}
+
+
+
+
+
+
+/*.paragraph{
+  margin: 100px;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 40px;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 53px;
+  color: white;
+  text-align: justify;
+  background-color: white;
+  width: 1228px;
+
+
+}*/
